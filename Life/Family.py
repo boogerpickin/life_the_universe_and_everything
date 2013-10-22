@@ -23,7 +23,7 @@ class Family(Order):
         self.family = self.families[self.f]
         def familyRandomize(self):
             self.f = random.randint(0, 34)
-            self.family = self.families[self.c]
+            self.family = self.families[self.f]
             pass
         if (self.f < 0):
             familyRandomize(self)
@@ -32,10 +32,10 @@ class Family(Order):
             print "Domain: The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
             pass
 
-newFamily = Family(spark = 42, d = 2, k = 5, p = 7, c = 19, o = 0, f = 0)
-print "newFamily.Family:   ", newFamily.family
-print "newFamily.Order:   ", newFamily.order
-print "newFamily.class_:  ", newFamily.class_
-print "newFamily.phylum:  ", newFamily.phylum
-print "newFamily.kindom:  ", newFamily.kingdom
-print "newFamily.domain:  ", newFamily.domain
+# newFamily = Family(spark = 42, d = 2, k = 5, p = 7, c = 19, o = 0, f = 0)
+# print "newFamily.Family:   ", newFamily.family
+# print "newFamily.Order:   ", newFamily.order
+# print "newFamily.class_:  ", newFamily.class_
+# print "newFamily.phylum:  ", newFamily.phylum
+# print "newFamily.kindom:  ", newFamily.kingdom
+# print "newFamily.domain:  ", newFamily.domain
