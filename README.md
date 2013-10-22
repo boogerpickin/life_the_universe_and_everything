@@ -5,4 +5,6 @@ This code repository is a mammoth, ambitious attempt to codify every object and 
 
 Contributors are very welcome.  
 
+2013 10[October]22[Tuesday] 16:55:38 Managed to get the beginning of a taxonomy system in place, at least down through the home sapiens taxonomic line.  
+
 
