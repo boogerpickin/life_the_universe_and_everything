@@ -8,6 +8,7 @@ class Life(object):
                 if (self.TheAnswer != 42):
                     print "The answer is not ", self.TheAnswer, ""
             sparkRandomize(self)
-        print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer
+        if __name__ == '__main__':
+            print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
 
-NewLifeForm = Life(spark = 21)
+newLife = Life(-1)
