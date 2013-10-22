@@ -25,8 +25,8 @@ class Class_(Phylum):
             print "Domain: The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
             pass
 
-newClass_ = Class_(spark = 42, d = 2, k = 5, p = 7, c = 19)
-print "newClass_.class_:  ", newClass_.class_
-print "newClass_.phylum:  ", newClass_.phylum
-print "newClass_.kindom:  ", newClass_.kingdom
-print "newClass_.domain:  ", newClass_.domain
+# newClass_ = Class_(spark = 42, d = 2, k = 5, p = 7, c = 19)
+# print "newClass_.class_:  ", newClass_.class_
+# print "newClass_.phylum:  ", newClass_.phylum
+# print "newClass_.kindom:  ", newClass_.kingdom
+# print "newClass_.domain:  ", newClass_.domain
