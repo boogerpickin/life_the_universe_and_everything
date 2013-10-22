@@ -5,19 +5,20 @@ class Domain(Life):
         Life.__init__(self)
         self.d = d
         self.domains = ["Bacteria", "Archaea", "Eukaryota"]
+        self.domain = self.domains[self.d]
         def domainRandomize(self):
-                d = random.randint(0,2)
-                self.d = self.domains[d]
+                self.d = random.randint(0,2)
+                self.domain = self.domains[self.d]
                 pass
-        if (d < 0):
+        if (self.d < 0):
             domainRandomize(self)
             pass
 
         if __name__ == '__main__':
             print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
 
-newDomain = Domain(-1)
-print newDomain.d
+# newDomain = Domain(-1)
+# print "Outside print; Domain: ", newDomain.d
         
 
 
