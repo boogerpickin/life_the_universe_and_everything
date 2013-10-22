@@ -35,12 +35,12 @@ class Species(Genus):
             print "Domain: The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
             pass
 
-newSpecies = Species(spark = 42, d = 2, k = 5, p = 7, c = 19, o = 0, f = 0, g = 2, s = 14)
-print "newSpecies.species: ", newSpecies.species
-print "newSpecies.genus:   ", newSpecies.genus
-print "newSpecies.family:  ", newSpecies.family
-print "newSpecies.order:   ", newSpecies.order
-print "newSpecies.class_:  ", newSpecies.class_
-print "newSpecies.phylum:  ", newSpecies.phylum
-print "newSpecies.kindom:  ", newSpecies.kingdom
-print "newSpecies.domain:  ", newSpecies.domain
+# newSpecies = Species(spark = 42, d = 2, k = 5, p = 7, c = 19, o = 0, f = 0, g = 2, s = 14)
+# print "newSpecies.species: ", newSpecies.species
+# print "newSpecies.genus:   ", newSpecies.genus
+# print "newSpecies.family:  ", newSpecies.family
+# print "newSpecies.order:   ", newSpecies.order
+# print "newSpecies.class_:  ", newSpecies.class_
+# print "newSpecies.phylum:  ", newSpecies.phylum
+# print "newSpecies.kindom:  ", newSpecies.kingdom
+# print "newSpecies.domain:  ", newSpecies.domain
