@@ -1,6 +1,6 @@
 #############
 # Creates a human with no name and of indiscriminate gender, but you can pass these attributes.  
-# If an age is not entered, it will generate a random age
+# Set a negative value for ageMax to generate random age and ageMax values
 # somewhere between 0 and 122 years 164 days, the age of 
 # Jeanne Calment, the oldest known living person in the common era.
 #
@@ -11,24 +11,41 @@ class Human(object):
         , gender =0
         , nameFirst = 'none'
         , nameLast = 'none'
-        , age = 0):
+        , age = 0.0
+        , ageMax = 0.0
+        ):
+        self.genderDictionary = {0: "Male", 1: "Female", 2: "Other"}
 
         self.gender = gender
         self.nameFirst = nameFirst
         self.nameLast = nameLast
-        if (age != 0):
-            self.age = age
-        else:
-            n  = 365.24*122+164
-            age = round(random.uniform(0, n), 2)/365.24
-        if (gender != 0):
-            self.gender = gender
-        else: self.gender = random.randint(1,2)
-        print "n: ", n
-        print "age: ", age
-        print "Name: ", nameFirst, nameLast
+        self.age = age
+        self.ageMax = ageMax
+        def ageRandomize(self):
+            m  = 365.24*122+164
+            self.ageMax = round(random.uniform(0, m), 2)/365.24
+            self.age = round(random.uniform(0, m), 2)/365.2
+            while (self.age > self.ageMax):
+                self.ageMax = round(random.uniform(0, m), 2)/365.24
 
-# Adam = Human(gender = 1, nameFirst = 'Adam')
+        def genderRandomize(self):
+            self.gender= random.randint(0,2)
+        if (ageMax < 0):
+            ageRandomize(self)
+
+
+        
+        if (self.gender < 0):
+            genderRandomize()
+        
+        print "age: ", self.age, "ageMax: ", self.ageMax
+        print "Name: ", self.nameFirst, self.nameLast
+        print "Gender: ", self.genderDictionary[self.gender]
+
+    
+
+
+Adam = Human(nameFirst = 'Adam', ageMax = -1)
 # print Adam.gender
 # Eve = Human( nameFirst = 'Eve')
 # print Eve.nameFirst, Eve.nameLast
