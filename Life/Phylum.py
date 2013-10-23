@@ -22,7 +22,7 @@ class Phylum(Kingdom):
             phylumRandomize(self)
 
         if __name__== '__main__':
-            print "Domain: The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
             pass
 
 # newPhylum = Phylum(spark = 42, p = 7)

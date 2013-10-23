@@ -10,6 +10,7 @@ class Life(object):
             
             sparkRandomize(self)
         if __name__ == '__main__':
-            print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            pass
 
-newLife = Life(-1)
+#newLife = Life(-1)

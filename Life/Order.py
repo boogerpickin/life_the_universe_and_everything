@@ -28,7 +28,7 @@ class Order(Class_):
             OrderRandomize(self)
 
         if __name__== '__main__':
-            print "Domain: The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
             pass
 
 # newOrder = Order(spark = 42, d = 2, k = 5, p = 7, c = 19, o = 0)

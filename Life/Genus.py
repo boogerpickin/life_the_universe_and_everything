@@ -31,7 +31,7 @@ class Genus(Family):
             genusRandomize(self)
 
         if __name__== '__main__':
-            print "Domain: The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
             pass
 
 # newGenus = Genus(spark = 42, d = 2, k = 5, p = 7, c = 19, o = 0, f = 0, g = 2)

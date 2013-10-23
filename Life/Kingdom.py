@@ -23,7 +23,8 @@ class Kingdom(Domain):
             pass
 
         if __name__== '__main__':
-            print "Domain: The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            pass
 
 newKingdom = Kingdom(spark = 42, k = 5)
 # print "newKingdom.kingdom: ", newKingdom.kingdom

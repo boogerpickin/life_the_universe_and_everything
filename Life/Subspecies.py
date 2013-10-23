@@ -33,16 +33,17 @@ class Subspecies(Species):
             speciesRandomize(self)
 
         if __name__== '__main__':
-            print "Domain: The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
             pass
 
-newSubspecies = Subspecies(spark = 42, d = 2, k = 5, p = 7, c = 19, o = 0, f = 0, g = 2, s = 14, ss = 0)
-print "newSubspecies.subspecies: ", newSubspecies.subspecies
-print "newSubspecies.species:    ", newSubspecies.species
-print "newSubspecies.genus:      ", newSubspecies.genus
-print "newSubspecies.family:     ", newSubspecies.family
-print "newSubspecies.order:      ", newSubspecies.order
-print "newSubspecies.class_:     ", newSubspecies.class_
-print "newSubspecies.phylum:     ", newSubspecies.phylum
-print "newSubspecies.kindom:     ", newSubspecies.kingdom
-print "newSubspecies.domain:     ", newSubspecies.domain
+newHuman = Subspecies(spark = 42, d = 2, k = 5, p = 7, c = 19, o = 0, f = 0, g = 2, s = 14, ss = 0)
+print "newHuman.TheAnswer:  ", newHuman.TheAnswer
+print "newHuman.subspecies: ", newHuman.subspecies
+print "newHuman.species:    ", newHuman.species
+print "newHuman.genus:      ", newHuman.genus
+print "newHuman.family:     ", newHuman.family
+print "newHuman.order:      ", newHuman.order
+print "newHuman.class_:     ", newHuman.class_
+print "newHuman.phylum:     ", newHuman.phylum
+print "newHuman.kindom:     ", newHuman.kingdom
+print "newHuman.domain:     ", newHuman.domain
