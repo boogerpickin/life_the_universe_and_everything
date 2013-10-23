@@ -15,7 +15,7 @@ class Domain(Life):
             pass
 
         if __name__ == '__main__':
-            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswerToLifeTheUniverseAndEverything 
             pass
 
 # newDomain = Domain(-1)

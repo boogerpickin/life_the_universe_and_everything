@@ -28,12 +28,12 @@ class SubClass(Class_):
             subclassesRandomize(self)
 
         if __name__== '__main__':
-            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswerToLifeTheUniverseAndEverything 
             pass
 
-newSubclass = SubClass(spark = 42, d = 2, k = 5, p = 7, c = 19, sc = 1)
-print "newSubclass.subclass:  ", newSubclass.subclass
-print "newSubclass.class_:    ", newSubclass.class_
-print "newSubclass.phylum:    ", newSubclass.phylum
-print "newSubclass.kindom:    ", newSubclass.kingdom
-print "newSubclass.domain:    ", newSubclass.domain
+# newSubclass = SubClass(spark = 42, d = 2, k = 5, p = 7, c = 19, sc = 1)
+# print "newSubclass.subclass:  ", newSubclass.subclass
+# print "newSubclass.class_:    ", newSubclass.class_
+# print "newSubclass.phylum:    ", newSubclass.phylum
+# print "newSubclass.kindom:    ", newSubclass.kingdom
+# print "newSubclass.domain:    ", newSubclass.domain

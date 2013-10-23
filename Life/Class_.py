@@ -22,7 +22,7 @@ class Class_(Phylum):
             class_Randomize(self)
 
         if __name__== '__main__':
-            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswerToLifeTheUniverseAndEverything 
             pass
 
 # newClass_ = Class_(spark = 42, d = 2, k = 5, p = 7, c = 19)

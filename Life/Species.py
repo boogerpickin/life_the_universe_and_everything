@@ -32,7 +32,7 @@ class Species(Genus):
             speciesRandomize(self)
 
         if __name__== '__main__':
-            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswer 
+            #print "The Answer to Life, the Universe and Everything is: ", self.TheAnswerToLifeTheUniverseAndEverything 
             pass
 
 # newSpecies = Species(spark = 42, d = 2, k = 5, p = 7, c = 19, o = 0, f = 0, g = 2, s = 14)
